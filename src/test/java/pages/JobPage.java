@@ -22,9 +22,9 @@ public class JobPage {
         return new ModalBlock();
     }
 
-    @Step("Verify page has \"Applied!\"")
+    @Step("Verify page has element with text \"Applied!\"")
     public JobPage verifyJobApplied() {
-        $(byText("Applied!")).should(exist); // todo add testid
+        $(withText("Applied!")).should(exist); // todo add testid
 
         return this;
     }
