@@ -65,6 +65,7 @@ public class TestsListener implements ITestListener {
 
     @Override
     public void onFinish(ITestContext context) {
+
     }
 
 }
