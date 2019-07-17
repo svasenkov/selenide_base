@@ -62,8 +62,8 @@ public class SelenideHelper {
     }
 
     public static String getConsoleLogs() {
-        sleep(2000);
-        $("html").should(Condition.exist);
+//        sleep(2000);
+//        $("html").should(Condition.exist);
         String logs = String.join("\n", Selenide.getWebDriverLogs(BROWSER));
 
         return logs;
