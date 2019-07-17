@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="E2E tests">
+    <test name="Register user and apply job (GUI)">
+        <classes>
+            <class name="tests.RegisterAndApplyTest"></class>
+        </classes>
+    </test>
+</suite>
+
